@@ -1,0 +1,92 @@
+.container__Signup {
+    background-image: url('../../assets/background.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container__header__Signup {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    padding-left: 100px;
+    gap: 13px;
+}
+
+
+.container__SignUp__Data {
+    width: 500px;
+    height: 720px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 35%;
+    padding: 50px;
+
+    background-color: #FFFFFF;
+}
+
+.container__SignUp__Data h1 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #7978D9;
+}
+
+.container__SignUp__Data form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__SignUp__Data label {
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #484848;
+}
+
+.container__SignUp__Data input {
+    all: unset;
+    padding: 10px;
+    width: 449px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 5px;
+}
+
+.container__SignUp__Data button {
+    margin-top: 38px;
+
+    border: none;
+    width: 470px;
+    height: 53px;
+    background: #7978D9;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.container__SignUp__Data button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.container__SignUp__Data p {
+    margin-top: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7B61FF;
+}
+
+.linkToSignIn:hover {
+    cursor: pointer;
+    color: red;
+}

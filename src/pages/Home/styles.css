@@ -1,0 +1,229 @@
+.container__Home {
+    background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container__header__Home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 400px;
+    height: 150px;
+}
+
+.container__header__Home__logo {
+    margin-left: 100px;
+}
+
+.container__header__Home__left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: #FFFFFF;
+
+    margin-right: 100px;
+}
+
+.container__header__Home__left img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.container__header__Home__left__usuario {
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+
+.container__Home__content {
+    width: 100vw;
+    height: 100vh;
+    padding: 60px 100px;
+    background: #FFFFFF;
+    border-radius: 70px;
+}
+
+.container__Home__content__filtro {
+    border: none;
+    width: 80px;
+    height: 30px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.container__Home__content__filtro:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.container__Home__content__infos {
+    display: flex;
+    margin-top: 34px;
+    gap: 34px;
+}
+
+
+.container__Home__content__infos__left__data {
+    display: flex;
+    align-items: center;
+
+    width: 1200px;
+    height: 58px;
+    padding: 27px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.container__Home__content__infos__left__data p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.infos__left__date {
+    cursor: pointer;
+}
+
+.seta__baixo {
+    transform: rotate(180deg);
+    margin-left: 5px;
+    width: 15px;
+    height: 5px;
+}
+
+.seta__cima {
+    margin-left: 5px;
+    width: 15px;
+    height: 5px;
+}
+
+.container__Home__content__infos__left__transactions__each {
+    display: flex;
+    align-items: center;
+
+    width: 1200px;
+    height: 58px;
+
+    padding: 21px 21px;
+
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.container__Home__content__infos__left__transactions__each span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.transactions__each__value__entry {
+    color: rgba(123, 97, 255, 1);
+}
+
+.transactions__each__value__exit {
+    color: rgba(250, 140, 16, 1);
+}
+
+.transactions__each__date,
+.transactions__each__value {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.transactions__each__edit,
+.transactions__each__delete {
+    margin-left: 10px;
+}
+
+.transactions__each__edit:hover,
+.transactions__each__delete:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.container__Home__content__infos__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.container__Home__content__infos__right__resume {
+    width: 236px;
+    height: 196px;
+    padding: 26px 36px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.container__Home__content__infos__right__resume h1 {
+    font-weight: 700;
+    font-size: 18px;
+
+    margin-bottom: 23px;
+}
+
+.container__Home__content__infos__right__resume p {
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.container__Home__content__infos__right__resume h4 {
+    border-top: 1px solid #EAEAEA;
+
+    font-weight: 700;
+    font-size: 14px;
+
+    margin-top: 30px;
+    padding-top: 16px;
+}
+
+.resume__entry,
+.resume__exits,
+.resume__sale {
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.resume__entry {
+    color: #645FFB;
+}
+
+.resume__exits {
+    color: #FA8C10;
+}
+
+.resume__sale {
+    color: #3A9FF1;
+}
+
+.container__Home__content__infos__right button {
+    border: none;
+    width: 236px;
+    height: 46px;
+
+    background: #7978D9;
+    border-radius: 5px;
+
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.container__Home__content__infos__right button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}

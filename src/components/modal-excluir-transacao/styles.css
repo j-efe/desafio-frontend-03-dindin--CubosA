@@ -1,0 +1,43 @@
+.modal__excluir__transacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+
+    left: 1190px;
+    width: 111px;
+    height: 46px;
+    font-weight: 300;
+    font-size: 15px;
+    background: #E4F2FD;
+    border-radius: 4px;
+}
+
+.modal__excluir__transacao button {
+    border: none;
+    width: 42px;
+    height: 15px;
+    border-radius: 4px;
+    color: white;
+}
+
+.modal__excluir__transacao button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.modal__excluir__transacao__botoes {
+    margin-top: 5px;
+
+    display: flex;
+    gap: 10px;
+}
+
+.modal__excluir__transacao__sim {
+    background: #3A9FF1;
+}
+
+.modal__excluir__transacao__nao {
+    background: #FF576B;
+}

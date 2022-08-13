@@ -1,0 +1,123 @@
+.modal__registro__transacao {
+    width: 611px;
+    height: 879px;
+    left: 415px;
+    top: 79px;
+
+    padding: 61px 62px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+
+.modal__registro__transacao h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.modal__registro__transacao__cross {
+    margin-left: 120px;
+}
+
+.modal__registro__transacao__cross:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.modal__registro__transacao__buttons {
+    display: flex;
+
+    margin-top: 52px;
+
+    gap: 10px;
+}
+
+.modal__registro__transacao__buttons button {
+    border: none;
+
+    width: 245px;
+    height: 60px;
+
+    font-weight: 700;
+    font-size: 14px;
+
+    border-radius: 10px 10px;
+
+    color: #FFFFFF;
+
+}
+
+.nao__Selecionado {
+    background: #B9B9B9;
+}
+
+.entrada__selecionado {
+    background: #3A9FF1;
+}
+
+.saida__selecionado {
+    background: #FF576B;
+}
+
+.modal__registro__transacao__buttons button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.modal__registro__transacao__inputs {
+    margin-top: 38px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__registro__transacao__inputs label {
+    margin-bottom: 9px;
+
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.modal__registro__transacao__inputs select {
+    width: 485px;
+    height: 63.49px;
+
+    padding: 15px;
+
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.modal__registro__transacao__inputs input {
+    margin-bottom: 26px;
+
+    width: 485px;
+    height: 63.49px;
+
+    padding: 15px;
+
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 5px;
+}
+
+.modal__registro__transacao__inputs button {
+    margin-top: 33px;
+    align-self: center;
+    width: 236px;
+    height: 46px;
+
+    border: none;
+    background: #7978D9;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.modal__registro__transacao__inputs button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

@@ -1,0 +1,66 @@
+.aba__filtro {
+    margin-top: 30px;
+
+    padding: 32px 0 0 36px;
+
+    width: 1110px;
+    height: 350px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.aba__filtro h1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+
+    color: #B9B9B9;
+
+    margin-bottom: 15px;
+}
+
+.aba__filtro__categorias {
+    width: 1000px;
+    margin-bottom: 18px;
+}
+
+
+.aba__filtro__categorias img {
+    margin-left: 5px;
+    width: 8px;
+    height: 8px;
+}
+
+.aba__filtro__botoes {
+    display: flex;
+    gap: 12px;
+}
+
+.aba__filtro__botoes button {
+    border: none;
+    width: 180px;
+    height: 40px;
+
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.aba__filtro__botoes button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.aba__filtro__botoes__limpar:hover {
+    color: #FFFF;
+    background-color: #B9B9B9;
+}
+
+.aba__filtro__botoes__aplicar {
+    color: #FFFF;
+    background: #7978D9;
+}
